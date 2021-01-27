@@ -1,0 +1,126 @@
+{
+    "editor.lineHeight": 40,
+    // "pretier.eslintIntegration": true,
+    "files.trimTrailingWhitespace": true,
+    "editor.renderWhitespace": "none",
+    "files.autoSave": "off",
+    "php.validate.enable": true,
+    "php.validate.executablePath": "C:/xampp/php",
+    "php.validate.run": "onType",
+    "files.autoSaveDelay": 500,
+    "extensions.autoCheckUpdates": false,
+    "extensions.autoUpdate": false,
+    "prettier.cssEnable": [
+        "css",
+        "less",
+        "scss",
+        "postcss"
+    ],
+    "prettier.singleQuote": false,
+    "highlight-matching-tag.styles": {
+        "opening": {
+            "full": {
+                "highlight": "rgba(165, 153, 233, 0.3)"
+            }
+        }
+    },
+    "editor.multiCursorModifier": "ctrlCmd",
+    "liveServer.settings.donotVerifyTags": true,
+    "editor.maxTokenizationLineLength": 2000000000,
+    // "[php]": {
+    //     "editor.defaultFormatter": "kokororin.vscode-phpfmt"
+    // },
+    "files.associations": {
+        "*.blade.php": "blade",
+        ".tpl": "html",
+        "*.php": "php",
+        "*.module": "php",
+        "*.js": "javascript",
+        "*.vue": "vue"
+    },
+    "emmet.includeLanguages": {
+        "blade": "html",
+        "javascript": "javascriptreact"
+    },
+    "emmet.triggerExpansionOnTab": true, // enable tab to expanse emmet tags
+    "blade.format.enable": true,
+    "editor.defaultFormatter": "vscode.html-language-features",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.smoothScrolling": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "workbench.editor.enablePreview": false,
+    "editor.fontLigatures": true,
+    "files.useExperimentalFileWatcher": true,
+    "editor.cursorWidth": 3,
+    "workbench.colorCustomizations": {
+        "editorCursor.foreground": "#ffff00",
+        "editorCursor.background": "#fff",
+        "terminalCursor.foreground": "#ffff00"
+    },
+    "editor.renderControlCharacters": false,
+    "editor.cursorBlinking": "expand",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    "terminal.integrated.fontWeight": "100",
+    "editor.fontFamily": "Operator Mono Lig Light",
+    "editor.showFoldingControls": "always",
+    "terminal.integrated.fontWeightBold": "normal",
+    "terminal.integrated.rendererType": "dom",
+    "editor.minimap.enabled": true,
+    "update.mode": "none",
+    "intelephense.diagnostics.undefinedSymbols": false,
+    "intelephense.diagnostics.undefinedTypes": false,
+    "breadcrumbs.enabled": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontWeight": "100",
+    "editor.foldingStrategy": "indentation",
+    // Enable per-language
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+        "editor.formatOnSave": true
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[dart]": {
+        "editor.defaultFormatter": "Dart-Code.dart-code"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "octref.vetur"
+    },
+    "[javascriptreact]": {
+        // "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.fontLigatures": "'ss02', 'ss19'",
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[blade]": {
+        "editor.defaultFormatter": "shufo.vscode-blade-formatter",
+        "editor.formatOnSave": true
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.startupEditor": "newUntitledFile",
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "terminal.integrated.letterSpacing": 0.7,
+    "editor.letterSpacing": 0.6,
+    "vetur.completion.scaffoldSnippetSources": false,
+    "editor.formatOnSave": true,
+    "editor.fontSize": 16.6,
+    "editor.tabSize": 3,
+    "editor.renderIndentGuides": false,
+    "workbench.colorTheme": "One Dark Pro",
+    "git.ignoreMissingGitWarning": true
+}
