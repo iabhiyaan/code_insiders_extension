@@ -29,7 +29,7 @@
       "when": "editorTextFocus && foldingEnabled"
    },
    {
-      "key": "ctrl+shift+'",
+      "key": "ctrl+m ctrl+m",
       "command": "editor.emmet.action.matchTag"
    },
    {
@@ -43,5 +43,31 @@
    {
       "key": "ctrl+k s",
       "command": "-saveAll"
+   },
+   {
+      "key": "ctrl+shift+d",
+      "command": "editor.action.deleteLines",
+      "when": "textInputFocus && !editorReadonly"
+   },
+   {
+      "key": "ctrl+shift+k",
+      "command": "-editor.action.deleteLines",
+      "when": "textInputFocus && !editorReadonly"
+   },
+   {
+      "key": "ctrl+shift+k",
+      "command": "workbench.view.debug"
+   },
+   {
+      "key": "ctrl+shift+d",
+      "command": "-workbench.view.debug"
+   },
+   {
+      "key": "ctrl+t ctrl+t",
+      "command": "workbench.action.selectTheme"
+   },
+   {
+      "key": "ctrl+k ctrl+t",
+      "command": "-workbench.action.selectTheme"
    }
 ]

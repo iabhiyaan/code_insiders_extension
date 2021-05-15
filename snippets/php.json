@@ -1,0 +1,11 @@
+{
+	"Get php function": {
+		"prefix": "func",
+		"body": [
+		  "public function fun()",
+		  "{",
+		  "}"
+		],
+		"description": ""
+	 }
+}

@@ -1,5 +1,5 @@
 {
-    "editor.lineHeight": 40,
+    "editor.lineHeight": 33,
     // "pretier.eslintIntegration": true,
     "files.trimTrailingWhitespace": true,
     "editor.renderWhitespace": "none",
@@ -35,7 +35,7 @@
         ".tpl": "html",
         "*.php": "php",
         "*.module": "php",
-        "*.js": "javascript",
+        "*.js": "javascriptreact",
         "*.vue": "vue"
     },
     "emmet.includeLanguages": {
@@ -54,11 +54,9 @@
     "editor.cursorWidth": 3,
     "workbench.colorCustomizations": {
         "editorCursor.foreground": "#ffff00",
-        "editorCursor.background": "#fff",
-        "terminalCursor.foreground": "#ffff00"
+        "editorCursor.background": "#000",
+        "terminalCursor.foreground": "#ffff00",
     },
-    "editor.renderControlCharacters": false,
-    "editor.cursorBlinking": "expand",
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
@@ -71,7 +69,8 @@
     "update.mode": "none",
     "intelephense.diagnostics.undefinedSymbols": false,
     "intelephense.diagnostics.undefinedTypes": false,
-    "breadcrumbs.enabled": false,
+    "intelephense.diagnostics.undefinedFunctions": false,
+    "intelephense.diagnostics.undefinedMethods": false,
     "workbench.iconTheme": "material-icon-theme",
     "editor.fontWeight": "100",
     "editor.foldingStrategy": "indentation",
@@ -115,12 +114,29 @@
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "terminal.integrated.letterSpacing": 0.7,
-    "editor.letterSpacing": 0.6,
+    "editor.letterSpacing": 0.4,
     "vetur.completion.scaffoldSnippetSources": false,
     "editor.formatOnSave": true,
     "editor.fontSize": 16.6,
     "editor.tabSize": 3,
     "editor.renderIndentGuides": false,
     "workbench.colorTheme": "One Dark Pro",
-    "git.ignoreMissingGitWarning": true
+    "git.ignoreMissingGitWarning": true,
+    "editor.useTabStops": false,
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "compressed",
+            "extensionName": ".min.css",
+            "savePath": "~/../css/"
+        },
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "~/../css/"
+        }
+    ],
+    "breadcrumbs.enabled": false,
+    "editor.lineNumbers": "on",
+    "editor.cursorBlinking": "solid",
+    "editor.cursorStyle": "block",
 }
